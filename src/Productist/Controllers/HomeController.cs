@@ -8,11 +8,14 @@ namespace Productist.Controllers
 {
     public class HomeController : Controller
     {
+
+        // POST: /home
         public IActionResult Index()
         {
             return View();
         }
 
+        // POST: /home/about
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
